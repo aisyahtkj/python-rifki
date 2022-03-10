@@ -30,10 +30,10 @@ pilihan="y"
         harga = (12000*jumlahpesan)
         ppn = int(harga * 0.1)
         if jumlahpesan >= 5:
-            diskon = int(harga * 0.2)
+        diskon = int(harga * 0.2)
             totalharga =int(harga-diskon+ppn)
         else:
-            diskon =(0)
+        diskon =(0)
             totalharga =int(harga+ppn)
     elif pesan == "c":
         listnama= "ES Kopi Hitam"
